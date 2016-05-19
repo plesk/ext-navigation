@@ -1,11 +1,5 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: snoskova
- * Date: 08.04.2016
- * Time: 14:47
- */
-
+// Copyright 1999-2016. Parallels IP Holdings GmbH.
 class Modules_Navigation_CustomButtons extends pm_Hook_CustomButtons
 {
     public function getButtons()

@@ -1,10 +1,5 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: snoskova
- * Date: 07.04.2016
- * Time: 10:38
- */
+// Copyright 1999-2016. Parallels IP Holdings GmbH.
 class PetController extends pm_Controller_Action
 {
     public function indexAction()
@@ -25,15 +20,15 @@ class PetController extends pm_Controller_Action
 
     protected function _addTabs()
     {
-        $this->view->tabs = array(
-            array(
+        $this->view->tabs = [
+            [
                 'title' => 'Kitten',
                 'action' => 'kitten',
-            ),
-            array(
+            ],
+            [
                 'title' => 'Puppy',
                 'action' => 'puppy',
-            ),
-        );
+            ],
+        ];
     }
 }

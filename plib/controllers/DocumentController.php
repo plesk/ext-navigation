@@ -1,5 +1,5 @@
 <?php
-
+// Copyright 1999-2016. Parallels IP Holdings GmbH.
 class DocumentController extends pm_Controller_Action
 {
 
@@ -56,16 +56,16 @@ class DocumentController extends pm_Controller_Action
 
     protected function _addTabs()
     {
-        $this->view->tabs = array(
-            array(
+        $this->view->tabs = [
+            [
                 'title' => 'Docs on API-RPC',
                 'action' => 'api',
-            ),
-            array(
+            ],
+            [
                 'title' => 'Docs on Extensions',
                 'action' => 'extension',
-            ),
-        );
+            ],
+        ];
     }
 
 }

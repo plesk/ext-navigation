@@ -1,5 +1,5 @@
 <?php
-
+// Copyright 1999-2016. Parallels IP Holdings GmbH.
 $messages = [
     'controllers.index.index.title' => "Module Navigation ",
     'controllers.document.index.title' => "Documents",

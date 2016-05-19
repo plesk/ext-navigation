@@ -1,10 +1,5 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: snoskova
- * Date: 07.04.2016
- * Time: 10:38
- */
+// Copyright 1999-2016. Parallels IP Holdings GmbH.
 class PictureController extends pm_Controller_Action
 {
 
@@ -34,20 +29,20 @@ class PictureController extends pm_Controller_Action
 
         $list = new pm_View_List_Simple($this->view, $this->_request);
         $list->setData($data);
-        $list->setColumns(array(
-            'column-1' => array(
+        $list->setColumns([
+            'column-1' => [
                 'title' => 'Name',
                 'noEscape' => true,
                 'searchable' => true,
-            ),
-            'column-2' => array(
+            ],
+            'column-2' => [
                 'title' => 'Address',
                 'noEscape' => true,
                 'searchable' => true,
-            ),
-        ));
+            ],
+        ]);
         // Take into account listDataAction corresponds to the URL /list-data/
-        $list->setDataUrl(array('action' => 'list-data'));
+        $list->setDataUrl(['action' => 'list-data']);
 
         return $list;
     }
