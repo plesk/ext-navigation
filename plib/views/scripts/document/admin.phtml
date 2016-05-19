@@ -1,0 +1,19 @@
+Specify Password After the Plesk Initialization <br>
+
+In case your Plesk instance has already been initialized, it is still possible to set the administrator's password being authenticated as the server power user.<br>
+
+To set up the administrator's password using XML API:<br>
+
+Send to the server a request packet satisfying the following conditions:<br>
+
+1. The server power user credentials specified as the HTTP_AUTH_LOGIN and HTTP_AUTH_PASSWD values in HTTP header of the packet.<br>
+2. The packet content is as follows:<br>
+<textarea readonly cols="43" rows="8">
+    <packet>
+        <server>
+            <set>
+                <password>new-password-here</password>
+            </set>
+        </server>
+    </packet>
+</textarea>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<module>
+  <id>navigation</id>
+  <name>Module navigation</name>
+  <description>Plesk navigation example</description>
+  <version>1.0</version>
+  <release>1</release>
+  <vendor>Plesk</vendor>
+  <url>https://plesk.com</url>
+  <plesk_min_version>17.0.12</plesk_min_version>
+</module>

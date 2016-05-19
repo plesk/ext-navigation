@@ -1,0 +1,9 @@
+Extension Navigation
+
+A test extension intended to demonstrate panel navigation.
+
+The following techniques are demonstrated:
+* Navigation by tabs and pages.
+* Navigation by breadcrumbs.
+* Switch objects via switcher.
+* Search page via Object switcher search
