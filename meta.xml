@@ -2,7 +2,7 @@
 <!-- Copyright 1999-2016. Parallels IP Holdings GmbH. -->
 <module>
   <id>navigation</id>
-  <name>Module navigation</name>
+  <name>Navigation Example</name>
   <description>Plesk navigation example</description>
   <version>1.0</version>
   <release>1</release>
