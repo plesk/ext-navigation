@@ -4,8 +4,9 @@
   <id>navigation</id>
   <name>Navigation Example</name>
   <description>Plesk navigation example</description>
+  <category>example</category>
   <version>1.0</version>
-  <release>1</release>
+  <release>2</release>
   <vendor>Plesk</vendor>
   <url>https://plesk.com</url>
   <plesk_min_version>17.0.12</plesk_min_version>
