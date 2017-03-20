@@ -23,7 +23,7 @@ class PictureController extends pm_Controller_Action
         $data = array_map(function ($picture) {
             return [
                 'column-1' => '<a href=' . pm_Context::getActionUrl('picture', 'view') . '/id/' . $picture['id'] . '>' . $picture['title'] . '</a>',
-                'column-2' => $picture['address'],
+                'column-2' => $picture['image'],
             ];
         }, Modules_Navigation_Pictures::$data);
 
